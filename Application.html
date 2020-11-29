@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Application</title>
+<link rel="stylesheet" type="text/css" title="Cool stylesheet" href="ApplicationCSS.css">
+</head>
+
+<body>
+
+<header>
+</header>
+
+<main>
+  <div class="formulaire">
+    <div class="formMain">
+      <div class="formHeaderBox">
+        <img src="Army.jpg" alt="Photo de groupe" style="border-radius: 50px; width: 700px;">
+        <div class="formHeaderText">
+        <h1>Rejoin l'armée de Dumbledore!</h1><br>
+        <h2>Tu veut rejoindre Harry Potter dans ses aventures?
+            Tu pense avoir ce qu'il faut pour combattre les forces du mal?
+            Tu aime pourfendre les trolls dans tes temps libre?
+            L'armée de Dumbledore est faite pour toi! Remplie la demande d'application ci-dessous et soumet ta candidature!</h2>
+        </div>
+      </div>
+      <div class="formFillBox">
+        <div class="formFillBoxleft">
+          <form action="https://www.w3schools.com/action_page.php" method="post">
+          <label for="Name">Nom Complet</label><br><br>
+          <input type="text" name="Name" required><br><br>
+          <label for="Adresse">Adresse</label><br><br>
+          <input type="text" name="Adresse"><br><br>
+          <label for="Hibou">Nom de votre hibou pour vous rejoindre</label><br><br>
+          <input type="text" name="Hibou"><br><br>
+          <label for="Sort">Quel est votre sort favori?</label><br><br>
+          <input type="text" name="Sort" required><br><br>
+          </form>
+        </div>
+        <div class="formFillBoxright">
+          <form action="https://www.w3schools.com/action_page.php" method="post">
+          <label for="Poudlard"> Avez vous étudier a Poudlard? </label><br><br>
+          <select name="Poudlard" required="required">
+            <option value="Yes">Oui</option>
+            <option value="No">Non</option>
+          </select><br><br>
+          <label for="maison"> Si oui, à quel maison avez vous appartenu? </label><br><br>
+            Gryffondor : <input type="checkbox" name="maison" value="Gryffondor">
+            &nbsp;Poufsouffle : <input type="checkbox" name="maison" value="Poufsouffle">
+            &nbsp;Serdaigle : <input type="checkbox" name="maison" value="Serdaigle">
+            &nbsp;Serpentard : <input type="checkbox" name="maison" value="Serpentard"><br><br>
+          <label for="ASPIC">Avez-vous passer votre ASPIC en Défense contre les forces du mal? </label><br><br>
+            oui <input type="radio" name="ASPIC" value="oui">
+            non <input type="radio" name="ASPIC" value="non"><br><br>
+          <label for="Grade"> Quel grade avez vous obtenu? </label><br><br>
+          <select name="Grade" required="required">
+            <option value="O"> O (Optimal)</option>
+            <option value="E"> E (Effort Exceptionnel)</option>
+            <option value="A"> A (Acceptable)</option>
+            <option value="P"> P (Piètre)</option>
+            <option value="D"> D (Désolant)</option>
+            <option value="T"> T (Troll)</option>
+          </select><br><br>
+          <input type="submit" value="Soumettre la candidature">
+          </form>
+        </div>
+      </div>
+  </div>
+  </div>
+</main>
+
+<footer>
+</footer>
+
+</body>
+</html>
