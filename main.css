@@ -1,0 +1,42 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: inline;
+  }
+
+.home {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+}
+
+
+
+.carousel-container{
+  display: inline;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.container1{
+  position: absolute;
+  top: 40%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+}
+
+
+
+
+.texth1{
+    
+    color: #fff;
+    font-size: 60px;
+}
+  
