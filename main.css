@@ -66,7 +66,7 @@ html {
   display: inline;
   position: absolute;
    top: -45%;
-   left: 280%;
+   left: 290%;
  }
 
 .twitter_icon {
@@ -210,9 +210,291 @@ select {
 
 /*Page 3*/
 
-.cv{
+#CV{
   
-  height: 100%;
-  background-color: turquoise;
+	position: relative; 
+  width:fit-content; 
+  height:fit-content; 
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 39px;
+}
+
+#CV-box {
+  height: 1100px;
+  width: 1300px;
+  margin: auto;
+  position: relative;
   display: flex;
 }
+
+#toolbar, #profile, #sectionsTexte {
+  height: 10vw;
+}
+
+#toolbar, #sectionsTexte {
+  background-color: gray;
+  height: 100%;
+  transform: scaleY(0.925);
+}
+
+/*Divs de la barre d'outils*/
+
+#toolbar {
+  width: 6.5%;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+  rgba(240, 46, 170, 0.3) -10px 10px,
+  rgba(240, 46, 170, 0.2) -15px 15px,
+  rgba(240, 46, 170, 0.1) -20px 20px,
+  rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+#listIcon {
+  background-color: red;
+  width: 100%;
+  height: 78px;
+}
+
+#iconsBar{
+  background-color: blue;
+  margin-top: 325px;
+  height: 300px;
+}
+
+.iconSlot{
+  width: 100%;
+  height: 25%;
+}
+
+.icon{
+  fill: gold;
+  transform: scale(2);
+  margin: auto;
+  position: relative;
+}
+
+.icon:hover{
+  fill: green;
+  cursor: pointer;
+  transform: scale(2.25);
+}
+
+
+/*Divs de la photo de profil */
+
+#profile {
+  background-color: #000000;
+  width: 40%;
+  height: 100%;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+  rgba(240, 46, 170, 0.3) -10px 10px,
+  rgba(240, 46, 170, 0.2) -15px 15px,
+  rgba(240, 46, 170, 0.1) -20px 20px,
+  rgba(240, 46, 170, 0.05) -25px 25px,
+  rgba(240, 46, 170, 0.4) 5px 5px,
+  rgba(240, 46, 170, 0.3) 10px 10px,
+  rgba(240, 46, 170, 0.2) 15px 15px,
+  rgba(240, 46, 170, 0.1) 20px 20px,
+  rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+#profile img{
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 40%;
+}
+
+#picture-description{
+  background-color: #FFFFFF;
+  width: 35%;
+  top: 80%;
+  position: absolute;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#character-name{
+  margin-bottom: 1vw;
+}
+
+#social-media-iconsBar{
+  background-color: #800020;
+  height: auto;
+  width: 75%;
+  display: flex;
+  border-radius: 60px;
+}
+
+.social-iconSlot{
+  width: 5vw;
+  height: 60px;
+}
+
+.social-icon{
+  fill: gold;
+  transform: scale(2);
+  margin: auto;
+  position: relative;
+}
+
+.social-icon:hover{
+  fill: green;
+  cursor: pointer;
+}
+
+
+/*Div de la section de texte*/
+
+#sectionsTexte {
+  width: 53.5%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+  rgba(240, 46, 170, 0.3) 10px 10px,
+  rgba(240, 46, 170, 0.2) 15px 15px,
+  rgba(240, 46, 170, 0.1) 20px 20px,
+  rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+hr{
+  background-color: orange;
+}
+
+hr.title-underline{
+  border: 1px solid gold;
+  width: 40%;
+  margin-left: 0;
+  margin-bottom: 2vw;
+}
+
+.section-title h1{
+  padding-top: 2vw;
+}
+
+.list-group-item{
+  background-color: inherit;
+  width: 55%;
+  padding-left: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.col{
+  padding-bottom: 3vw;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+#education-text{
+  text-align: center;
+}
+
+.img-ed{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 10px ridge #654321;
+}
+
+.headline{
+  display: flex;
+}
+
+.headline svg{
+  width: auto;
+}
+
+.headline h5{
+  text-align: right;
+  margin-left: auto;
+  width: 75%;
+}
+
+.text-icon{
+  transform: scale(2);
+  position: relative;
+  left: 10px;
+  margin-bottom: 1vw;
+}
+
+.list-group-item.exp{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+}
+
+.card-img-top{
+  width: 100%;
+}
+
+.card{
+  border: none;
+  height: 100%;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.card-body:nth-child(even){
+  background-color: gold;
+}
+
+.card-body:nth-child(odd){
+  background-color: red;
+}
+
+@media screen and (max-width: 1200px) {
+  #CV-box{
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #CV-box{
+    width: 700px;
+  }
+  .icon{
+    transform: scale(1.5);
+  }
+
+  .icon:hover{
+    transform: scale(2);
+}
+
+@media screen and (max-width: 600px) {
+  #toolbar{
+    width: 10%;
+    border: 0.5px;
+    border-style: none solid none none;
+    border-color: black;
+  }
+
+  #profile{
+    display: none;
+  }
+
+  #sectionsTexte{
+    width: 90%;
+  }
