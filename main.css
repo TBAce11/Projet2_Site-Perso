@@ -28,14 +28,14 @@ html {
   left: 28%;
   transform: translate(-50%, -50%);
   color: white;
-  
+
 }
 
 
 
 
 .texth1{
-    
+
     color: #fff;
     font-size: 60px;
 }
@@ -52,7 +52,7 @@ html {
   cursor: pointer;
 
 
-  
+
 }
 
 .social {
@@ -78,7 +78,7 @@ html {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  opacity: 1;  
+  opacity: 1;
 }
 .twitter_icon:hover{
   background-color: #1da1f2;
@@ -93,11 +93,11 @@ html {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  opacity: 1;   
+  opacity: 1;
 }
 
 .facebook_icon:hover {
-  background-color: #4267b2; 
+  background-color: #4267b2;
 
 }
 
@@ -110,11 +110,11 @@ html {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  opacity: 1;   
+  opacity: 1;
 }
 
 .instagram_icon:hover {
-  background-color: #fe4079; 
+  background-color: #fe4079;
 
 }
 
@@ -122,18 +122,19 @@ html {
 .formulaire {
   background-color: black;
   height: 100vh;
-  
+
   display:flex;
- 
+
 }
 
 .formMain {
-  background-color: #C4B7B4;
-  position: absolute; 
-  width:fit-content; 
-  height:fit-content; 
+  background-color: #909497;
+  font-family:Palatino Linotype;
+  position: absolute;
+  width:fit-content;
+  height:fit-content;
   display:inline-block;
-  
+
 }
 
 .formHeaderBox {
@@ -160,6 +161,8 @@ html {
 
 .formFillBox {
   background-color: inherit;
+  font-size: 15px;
+  font-weight: bold;
   height: 100%;
   width: 100%;
   display: flex;
@@ -174,7 +177,7 @@ html {
   text-align: center;
   height: 100%;
   width: 100%;
-  
+
 }
 
 .formFillBoxright {
@@ -182,14 +185,14 @@ html {
   text-align: center;
   height: 100%;
   width: 100%;
-  
+
 }
 
 input[type=submit] {
     padding:15px 30px;
     border: none;
     border-radius: 50px;
-    background-color: #991E04;
+    background-color: #800020;
     color: white;
     font-size: 20px;
 }
@@ -211,10 +214,10 @@ select {
 /*Page 3*/
 
 #CV{
-  
-	position: relative; 
-  width:fit-content; 
-  height:fit-content; 
+
+	position: relative;
+  width:fit-content;
+  height:fit-content;
   display:inline-block;
   margin-left: auto;
   margin-right: auto;
